@@ -12,6 +12,7 @@
 
 ~~~
 Brand Repo
+    -> .editorconfig
     -> Prototype
         -> 2017 Home Page Carousel Animate on Scroll
             -> src
@@ -40,6 +41,7 @@ Brand Repo
             -> package.json (Artifact is built with nav, all packages, and npm install dependency diva page parser component)
             -> yarn.lock
             -> lerna.json
+            -> .gitignore
         -> 2017 Fashionshow Runway Insider Page
             -> app
                 -> package.json (Artifact is built with nav, and src)
