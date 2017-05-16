@@ -1,11 +1,12 @@
 # Brand Project Repo Setup Idea: 
 
-  - A project (2017 FashionShow Angel Lineup) is work that has its own production release cycle, it’s deployable artifact may or may not be standard alone.
-  - Brand repository is organized by JIRA Component (2017 Fashionshow Campaign) > JIRA Epics (2017 Fashionshow Main Page)
-  - JIRA Epic (2017 Fashionshow Main Page) has ONE deployable artifact package
-  - JIRA Epic (2017 Fashionshow Main Page) artifact maintains one Version at any given time
-  - Inside JIRA Epic (2017 Fashionshow Main Page), each project has its own folder, all project versions of the Epic is managed by LernaJS
-  - Inside each Project folder, that’s where developer run local server, write / commit code (Developer is not able to view the Epic while developing, example: fs main with all projects)
+  - A project (2017 FashionShow Angel Lineup or Runway-insider) is work that has its own production release cycle, it’s deployable artifact may or may not be standard alone.
+  - A project can be a story of an Epic or the Epic itself.
+  - Brand repository is organized by JIRA Component (2017 Fashionshow Campaign) > JIRA Epics (2017 Fashionshow Main Page).
+  - JIRA Epic (2017 Fashionshow Main Page) has ONE deployable artifact package.
+  - JIRA Epic (2017 Fashionshow Main Page) artifact maintains one Version at any given time.
+  - Inside JIRA Epic (2017 Fashionshow Main Page), each project has its own folder, all project versions of the Epic is managed by LernaJS.
+  - Inside each Project folder, that’s where developer run local server, write / commit code (Developer is not able to view the Epic while developing, example: fs main with all projects).
 
 ## Example:
 
@@ -66,3 +67,20 @@ Brand Repo
         -> index.html
         -> package.json
 ~~~
+
+## FS Main Demo Idea
+FS Main is the only project that require multiple projects in an Epic. 
+
+The requirements are: 
+- View / Test individual project locally
+- View / Test FS main page with all individual project built in locally
+- Build deployable artifact of the entire FS main page
+- Build deployable artifact of individual project
+
+Demo steps:
+- Develop 360-viewer within it's folder follow this workflow: https://confluence.victoriassecret.com/display/DXSP/Workflow+-+New+Project+Demo
+- Develop angel-lineup within it's folder follow this workflow: https://confluence.victoriassecret.com/display/DXSP/Workflow+-+New+Project+Demo
+- Review FS main Epic locally 
+- Run `yarn build` to create deployable artifact of FS main page
+- Deploy to diva to validate 
+
