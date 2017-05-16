@@ -38,6 +38,7 @@ Brand Repo
                 -> CSS Fix
             -> package.json (Artifact is built with nav, all packages, and npm install dependency diva page parser component)
             -> yarn.lock
+            -> lerna.json
         -> 2017 Fashionshow Runway Insider Page
             -> app
                 -> package.json (Artifact is built with nav, and src)
@@ -51,6 +52,7 @@ Brand Repo
                 -> CSS Fix
             -> package.json (Artifact is built with nav, and all packages)
             -> yarn.lock
+            -> lerna.json
         -> Header
             -> Nav
     -> 2017 Pink Header
