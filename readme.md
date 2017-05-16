@@ -1,3 +1,15 @@
+# Brand Project Repo Setup Idea: 
+
+  - A project (2017 FashionShow Angel Lineup) is work that has its own production release cycle, it’s deployable artifact may or may not be standard alone.
+  - Brand repository is organized by JIRA Component (2017 Fashionshow Campaign) > JIRA Epics (2017 Fashionshow Main Page)
+  - JIRA Epic (2017 Fashionshow Main Page) has ONE deployable artifact package
+  - JIRA Epic (2017 Fashionshow Main Page) artifact maintains one Version at any given time
+  - Inside JIRA Epic (2017 Fashionshow Main Page), each project has its own folder, all project versions of the Epic is managed by LernaJS
+  - Inside each Project folder, that’s where developer run local server, write / commit code (Developer is not able to view the Epic while developing, example: fs main with all projects)
+
+## Example:
+
+~~~
 Brand Repo
     -> Prototype
         -> 2017 Home Page Carousel Animate on Scroll
@@ -51,4 +63,4 @@ Brand Repo
         -> yarn.lock
         -> index.html
         -> package.json
-    
+~~~
