@@ -68,6 +68,11 @@ Brand Repo
         -> package.json
 ~~~
 
+# Assumptions:
+- Demo projects do NOT care about project detail
+- Demo projects should satisfy the requirments 
+- Demo projects are evaluating the JIRA/Stash flow (BWI production team collabration), tools required to complete the flow, the capability of fitting all types of BWI projects in this format. 
+
 ## FS Main Demo Idea
 FS Main is the only project that require multiple projects in an Epic. 
 
@@ -84,3 +89,15 @@ Demo steps:
 - Run `yarn build` to create deployable artifact of FS main page
 - Deploy to diva to validate 
 
+## FS Runway-insider Demo Idea
+Runway-insider is a project == Epic.
+
+The requirements are: 
+- View / Test project locally
+- Build deployable artifact
+
+Demo steps:
+- Develop the SPA with routing
+- Review work locally
+- Run `yarn build` to create deployable artifact of FS main page
+- Deploy to diva to validate
