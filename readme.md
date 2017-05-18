@@ -79,14 +79,14 @@ Brand Repo
 FS Main is the only project that require multiple projects in an Epic. 
 
 The requirements are: 
-- View / Test individual project locally
+- [x] View / Test individual project locally
 - View / Test FS main page with all individual project built in locally
 - Build deployable artifact of the entire FS main page
-- Build deployable artifact of individual project
+- [x] Build deployable artifact of individual project
 
 Demo steps:
-- Develop 360-viewer within it's folder follow this workflow: https://confluence.victoriassecret.com/display/DXSP/Workflow+-+New+Project+Demo
-- Develop angel-lineup within it's folder follow this workflow: https://confluence.victoriassecret.com/display/DXSP/Workflow+-+New+Project+Demo
+- [x] Develop 360-viewer within it's folder follow this workflow: https://confluence.victoriassecret.com/display/DXSP/Workflow+-+New+Project+Demo
+- [x] Develop angel-lineup within it's folder follow this workflow: https://confluence.victoriassecret.com/display/DXSP/Workflow+-+New+Project+Demo
 - Review FS main Epic locally 
 - Run `yarn build` to create deployable artifact of FS main page
 - Deploy to diva to validate 
@@ -95,8 +95,8 @@ Demo steps:
 Runway-insider is a project == Epic.
 
 The requirements are: 
-- View / Test project locally
-- Build deployable artifact
+- [x] View / Test project locally
+- [x] Build deployable artifact
 
 Demo steps:
 - Develop the SPA with routing
