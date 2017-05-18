@@ -1,12 +1,38 @@
 # Brand Project Repo Setup Idea: 
 
-  - A project (2017 FashionShow Angel Lineup or Runway-insider) is work that has its own production release cycle, it’s deployable artifact may or may not be standard alone.
+  - A project (2017 FashionShow Main or Runway-insider) is work that has its own production release cycle, it’s deployable artifact may or may not be standard alone.
   - A project can be a story of an Epic or the Epic itself.
   - Brand repository is organized by JIRA Component (2017 Fashionshow Campaign) > JIRA Epics (2017 Fashionshow Main Page).
   - JIRA Epic (2017 Fashionshow Main Page) has ONE deployable artifact package.
   - JIRA Epic (2017 Fashionshow Main Page) artifact maintains one Version at any given time.
   - Inside JIRA Epic (2017 Fashionshow Main Page), each project has its own folder, all project versions of the Epic is managed by LernaJS.
   - Inside each Project folder, that’s where developer run local server, write / commit code (Developer is not able to view the Epic while developing, example: fs main with all projects).
+
+# Brand Project Production Proposal: 
+- Fashionshow Production Team set Milestone / Release Date for each release
+- BWI FEWD schedule code publish to diva Every Day / Week
+- BWI FEWD is going to package entire code base including timebox and desktop/mobile variations into single Artifact per page
+- 2017 FS Main page will adopt runway-insider project approach to completely seperate diva content from applicaiton logic
+    - All diva contents are setup in different hidden pages
+    - All markup feature are setup in diva: <div id="[naming convention]"></div>
+    - FS Main page app shell script 
+        - fetche the hidden page source
+        - parse the source, add markup feature template string, generate the final page markup 
+        - render the view accordingly, need to create `render` requirements here
+            - Render feature code into the correct div container
+            - Render content in view port (Optimizaiton)
+            - Reuse DOM node (Optimization)
+            - Support Browser back button (history API)
+            - Support anchor to certain parts of the page and scroll to the location (How does it work with Reusable DOM node)
+        - Application state management
+- Demo
+- Anticipated Side effects of this architecture design change
+    - Blank content area for seconds before anything is rendered in-view. 
+        - Action: FEWD will work on frontend performance optimization as much as we can
+        - Action: FEWD will create multiple optimization solutions / prototype for UX to review
+    - Placeholder markup features need to be setup during project kick off, Producers are free to arrange the placement of the feature use group row
+    - Place holder app logic markup feature need to be setup during project kick off. This is the only feature that will be updated from FEWD throughout the FS page releases.
+
 
 ## Example:
 
