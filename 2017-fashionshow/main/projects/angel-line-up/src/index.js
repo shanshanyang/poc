@@ -1,5 +1,7 @@
-const app = document.createElement('main');
+const angel = document.createElement('main');
 const text = document.createTextNode('angel-line-up');
 
-app.appendChild(text);
-document.getElementById('root').appendChild(app);
+angel.appendChild(text);
+document.getElementById('root').appendChild(angel);
+
+export default angel;

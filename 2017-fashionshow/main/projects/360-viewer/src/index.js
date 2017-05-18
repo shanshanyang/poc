@@ -1,7 +1,9 @@
 import button from './button.js'; 
-const app = document.createElement('main');
+const viewer = document.createElement('main');
 const text = document.createTextNode('360-viewer');
 
-app.appendChild(text);
-app.appendChild(button);
-document.getElementById('root').appendChild(app);
+viewer.appendChild(text);
+viewer.appendChild(button);
+
+document.getElementById('root').appendChild(viewer);
+export default viewer;

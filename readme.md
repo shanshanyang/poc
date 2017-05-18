@@ -79,8 +79,10 @@ Brand Repo
 FS Main is the only project that require multiple projects in an Epic. 
 
 The requirements are: 
-- [x] View / Test individual project locally
-- View / Test FS main page with all individual project built in locally
+- [x] View individual project locally
+- Test individual project locally
+- View FS main page with all individual project built in locally
+- Test FS main page with all individual project built in locally
 - Build deployable artifact of the entire FS main page
 - [x] Build deployable artifact of individual project
 
