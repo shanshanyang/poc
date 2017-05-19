@@ -10,5 +10,8 @@
   "devDependencies": {
     "neutrino": "^5.8.0",
     "neutrino-preset-web": "^5.8.0"
+  },
+  "dependencies": {
+    "gsap": "^1.19.1"
   }
 }
