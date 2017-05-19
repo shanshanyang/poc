@@ -10,6 +10,14 @@ Lib: gsap
 - How to style a component
 - How to unit test a component
 
+## Maybe
+- How to style snappoints and mobile
+
+## Container Component
+
+- Preload / Lazyload Images
+- DIVA page source parser
+
 ## Best Practices
 
 - Lazy load assets ( scripts, images, videos, templates )
@@ -28,6 +36,6 @@ Lib: gsap
 
 - Seperation of concern: Container Component vs Presentation Component
 - Render() 
-- Use ES6 class or funcitonal programming
+- Use ES6 class
    - http://2ality.com/2015/02/es6-classes-final.html
    - http://2ality.com/2016/01/private-data-classes.html
