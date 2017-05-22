@@ -8,15 +8,17 @@ Lib: gsap
 - How to create component template
 - How to create component API
 - How to style a component
+- How to bind events to a component
 - How to unit test a component
 
 ## Maybe
 - How to style snappoints and mobile
+- Component lifecycle illustration
 
 ## Container Component
 
 - Preload / Lazyload Images
-- DIVA page source parser
+- DIVA page source parser (=> JSON Object)
 
 ## Best Practices
 
