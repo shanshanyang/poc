@@ -1,4 +1,4 @@
-import UserList from './list.js';
+import UserList from './list/list.js';
 
-document.getElementById('root').innerHTML = UserList([1,2,3,4]);
+document.body.innerHTML = UserList([1,2,3,4]);
 

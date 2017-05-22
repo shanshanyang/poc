@@ -10,6 +10,9 @@ Lib: gsap
 - How to style a component
 - How to bind events to a component
 - How to unit test a component
+- How to use CSS Module with ES6 Module
+- ESLint rules
+- Which design pattern are we using for Components??
 
 ## Maybe
 - How to style snappoints and mobile
