@@ -8,9 +8,9 @@ Lib: gsap
 - How to create component template
 - How to create component API
 - How to style a component
-- How to bind events to a component
+- How to theme an application 
+- How to handle component event binding
 - How to unit test a component
-- How to use CSS Module with ES6 Module
 - ESLint rules
 - Which design pattern are we using for Components??
 
@@ -22,6 +22,7 @@ Lib: gsap
 
 - Preload / Lazyload Images
 - DIVA page source parser (=> JSON Object)
+- DIVA page fetching (response time measurement)
 
 ## Best Practices
 
@@ -44,3 +45,14 @@ Lib: gsap
 - Use ES6 class
    - http://2ality.com/2015/02/es6-classes-final.html
    - http://2ality.com/2016/01/private-data-classes.html
+
+
+# POC project
+Assumption:
+- POC is used to verify how everything fits together
+- CMS proxy is not in place for this POC
+
+Acceptance Criteria:
+- 
+
+

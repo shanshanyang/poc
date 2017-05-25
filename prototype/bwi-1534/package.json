@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "neutrino start --use neutrino-preset-web",
+    "start": "webpack-dev-server",
     "build": "neutrino build --use neutrino-preset-web"
   },
   "devDependencies": {

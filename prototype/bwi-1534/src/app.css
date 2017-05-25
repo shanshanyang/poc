@@ -1,0 +1,22 @@
+body {
+  background: #ccc;
+  padding: 10%;
+}
+
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.mobile {
+  background: #ef5f96;
+  border-color: #ef5f96;
+  border-style: solid;
+  border-width: 2px;
+  color: #fff;
+  min-height: 35px;
+  line-height: 21px;
+  min-width: 150px;
+  padding: 6px 28px 4px;
+}

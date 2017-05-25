@@ -1,14 +1,19 @@
-import User from '../user.js';
+import User from '../user/user.js';
 // Import Styles
 import list from './list.css';
+import style from '../app.css';
 
-const UserList = (arrayList) => {
-  const users = arrayList.map( ()=> {
-    return User();
+const UserList = (arrayList, ...props) => {
+  const users = arrayList.map( (item)=> {
+    const user = new User(item, ...props);
+    // DOM is not ready
+    user.bindEvents();
+    return user.render();
   });
+
   return `
-    <div class="${list.users}">
-      ${users}
+    <div class="${list.users} ${style.flexbox}">
+      ${users.join('')}
     <div>
     `;
 };

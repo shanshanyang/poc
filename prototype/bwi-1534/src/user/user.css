@@ -1,0 +1,11 @@
+.user {
+  font-size: 16px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px
+}
+
+.user:hover {
+  border: 2px solid #ef5f96;
+}

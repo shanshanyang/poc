@@ -107,9 +107,9 @@ FS Main is the only project that require multiple projects in an Epic.
 The requirements are: 
 - [x] View individual project locally
 - Test individual project locally
-- View FS main page with all individual project built in locally
-- Test FS main page with all individual project built in locally
-- Build deployable artifact of the entire FS main page
+- [x] View FS main page with all individual project built in locally
+- [x] Test FS main page with all individual project built in locally
+- [x] Build deployable artifact of the entire FS main page
 - [x] Build deployable artifact of individual project
 
 Demo steps:
