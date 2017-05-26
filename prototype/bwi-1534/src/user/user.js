@@ -17,18 +17,20 @@ class User {
     this.name = name;
     this.handler = props[0];
   }
-
-  bindEvents() {
-    // this.handler.bind(this, this.name);
-    console.log(window.document.querySelector('#john'));
-    window.addEventListener('click', this.handler);
-  }
-
+  
   render() {
+    
+    const loginBtn = `<button id="${this.name}" class="${app.mobile}">${this.name.toUpperCase()}</button>`;
+    console.log('render user', window.performance.now());
+    const template = document.createElement('template');
+    template.innerHTML = loginBtn;
+    console.log(template.content.childNodes, window.performance.now());
+    template.content.childNodes[0].onClick = this.handler;
+
     return `
       <div class="${style.user}">
         <span>User Name : </span>
-        <button id="${this.name}" class="${app.mobile}">${this.name.toUpperCase()}</button>
+        ${loginBtn}
       </div>
     `;
   }
