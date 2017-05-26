@@ -10,12 +10,21 @@ const UserList = (arrayList, ...props) => {
     // DOM is not ready
     return user.render();
   });
-
-  return `
-    <div class="${list.users} ${style.flexbox}">
+  
+  console.log('render list', window.performance.now(), users);
+   const list = `
+    <div class="${style.flexbox}">
       ${users.join('')}
     <div>
-    `;
+  `;
+  const template = document.createElement('template');
+  template.innerHTML = list;
+  // template.content.childNodes[1].onClick = (e) => {
+  //   console.log(e, e.target, e.currentTarget);
+  // };
+
+  console.log(template.content.childNodes[1], window.performance.now());
+  return list;
 };
 
 export default UserList;

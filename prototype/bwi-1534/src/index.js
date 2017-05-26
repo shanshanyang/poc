@@ -5,5 +5,6 @@ document.body.classList.add('mobile');
 const action = (e) => {
   console.log('action', e, e.target, e.currentTarget);
 };
+
 // render()
 document.body.innerHTML = UserList(["john", "tom", "sam"], action);
